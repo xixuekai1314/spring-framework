@@ -52,7 +52,7 @@ import java.lang.annotation.Target;
  * @see org.springframework.beans.factory.BeanFactory#getBean(Class, Object...)
  * @see org.springframework.beans.factory.BeanFactory#getBean(String, Object...)
  */
-@Target(ElementType.METHOD)
+@Target(ElementType.METHOD) //只能标在方法上
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface Lookup {

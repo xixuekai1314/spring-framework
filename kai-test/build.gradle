@@ -11,9 +11,9 @@ repositories {
 
 dependencies {
     //引入Spring
-    api(project(":spring-beans"))
+    //api(project(":spring-beans"))
     api(project(":spring-context"))
-    api(project(":spring-core"))
+    //api(project(":spring-core"))
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 
